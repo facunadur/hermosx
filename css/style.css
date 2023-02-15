@@ -104,47 +104,33 @@ padding: 0px;
 
 /* La Inspiracion */
 
-.inpiracion__main{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas: 
-    " . tituloI . "
-    " . imagenI1 . "
-    " imagenI2 . . "
-    " . imagenI3 . "
-    " . . imagenI4 "
-    ;
-    
+#bannerMeInspiras{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-.inspo__titulo{
-    grid-area: tituloI;   
+
+.mainbanner__imagenInspo{
+    margin: 20px;
+    position: fixed;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    
+
+}
+
+.inspiracionmain__title{
+    margin: 50px;
 }
 .inspo__titulo2{
     text-align: center;
 }
 .inspo__parrafo1{
     text-align: center;
-    padding: 20px;
 }
-.inspo__imagen1{
-    grid-area: imagenI1;
-}
-.inspo__imagen2{
-    grid-area: imagenI2;
-    padding: 20px;
 
-}
-.inspo__imagen3{
-    grid-area: imagenI3;
-
-}
-.inspo__imagen4{
-    grid-area: imagenI4;
-    padding: 20px;
-    margin: 20px 20px 100px 20px;
-
-}
 .inspo__imagensize1{
     height: 300px;
     width: 200px;
@@ -152,6 +138,7 @@ padding: 0px;
 
 }
 .inspo__imagensize2{
+    margin: 30px;
     height: 170px;
     width: 250px;
     padding: 20px;
@@ -168,9 +155,7 @@ padding: 0px;
     padding: 20px;
 
 }
-.mainbanner__imagenInspo{
-    position: fixed;
-}
+
 #ParrafoInspo{
     padding: 20px;
     justify-content: center;
