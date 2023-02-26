@@ -1,0 +1,65 @@
+.sobrehermosx__banner{
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    .sobrehermosx__banner p{
+        width: 70%;
+    
+    }
+    .sobrehermosx__banner img{
+        height: 500px;
+        margin: 50px;
+    }
+}
+
+#TarjetaBook{
+    margin: 100px;
+    border: 2px;
+    height: 1200px;
+    border-color: black;
+    border-style: dashed;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    #TarjetaBook h3 {
+        font-size: 20px;
+         padding: 20px;
+     }
+     #TarjetaBook p {
+         width: 500px;
+         padding: 20px;
+     }
+     .Book {
+         width: 100%;
+         height: 100%;
+         margin: 30px;
+         padding: 20px;
+     }
+}
+
+
+/* Media Queries Sobre Hermosx*/
+
+@media (max-width: 576px)  { 
+
+    #TarjetaBook{
+      display: none;
+    }
+
+    .sobrehermosx__banner p{
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    #TarjetaBook{
+        width: 100%;
+      } 
+
+}

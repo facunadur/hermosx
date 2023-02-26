@@ -1,5 +1,199 @@
-h2 {
-  font-size: 100px; }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif; }
+  * h2 {
+    font-size: 40px; }
+  * a {
+    text-decoration: none;
+    color: black; }
 
-h2 {
-  font-size: 140px; }
+.footer {
+  align-self: baseline;
+  background-color: black;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding: 20px; }
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; }
+  header nav .header__logo {
+    width: 60px;
+    padding: 0px; }
+
+.contacto {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: " . titulo . " " . encuesta . "; }
+  .contacto .contacto__titulo {
+    grid-area: titulo;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around; }
+    .contacto .contacto__titulo .contacto__titulo h2 {
+      font-size: 50px; }
+    .contacto .contacto__titulo .contacto__titulo p {
+      font-size: 14px;
+      margin: 0px; }
+  .contacto .contacto__encuesta {
+    grid-area: encuesta;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px;
+    border-color: black;
+    border-style: dashed;
+    border-width: 2px; }
+    .contacto .contacto__encuesta .contacto__encuesta H3 {
+      padding: 20px; }
+
+.main__banner {
+  padding: 20px;
+  margin: 40 px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white; }
+  .main__banner .mainbanner__imagen1 {
+    position: fixed;
+    z-index: 100; }
+  .main__banner .mainbanner__titulo {
+    margin: 200px 20px 20px 20px; }
+
+.inspiracionmain__title {
+  margin: 50px; }
+
+#bannerMeInspiras {
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+  #bannerMeInspiras .mainbanner__imagenInspo {
+    margin: 20px;
+    position: fixed;
+    flex-direction: column;
+    align-content: center;
+    align-items: center; }
+  #bannerMeInspiras .inspo__titulo2 {
+    text-align: center; }
+  #bannerMeInspiras .inspo__parrafo1 {
+    text-align: center; }
+
+.inspo__imagensize1 {
+  height: 300px;
+  width: 200px;
+  padding: 20px; }
+
+.inspo__imagensize2 {
+  margin: 30px;
+  height: 170px;
+  width: 250px;
+  padding: 20px; }
+
+.inspo__imagensize3 {
+  height: 380px;
+  width: 250px;
+  padding: 20px; }
+
+.inspo__imagensize4 {
+  height: 350px;
+  width: 200px;
+  padding: 20px; }
+
+#ParrafoInspo {
+  padding: 20px;
+  justify-content: center;
+  text-align: justify; }
+
+.autorseccion1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .autorseccion1 .autorseccion1__imagen {
+    position: fixed; }
+  .autorseccion1 .autorseccion1__titular {
+    width: 40%; }
+  .autorseccion1 .autorseccion1__titulo {
+    margin: 200px 10px 10px 10px;
+    text-align: center; }
+
+.autorseccion2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 70%; }
+  .autorseccion2 .autorseccion2__imagen {
+    justify-content: center;
+    margin: 50px;
+    height: 500px; }
+
+/* Media Queries Sobre El Autor*/
+@media (max-width: 850px) {
+  .autorseccion2__imagen {
+    display: none; }
+  .autorseccion2 {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%; } }
+
+.sobrehermosx__banner {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between; }
+  .sobrehermosx__banner .sobrehermosx__banner p {
+    width: 70%; }
+  .sobrehermosx__banner .sobrehermosx__banner img {
+    height: 500px;
+    margin: 50px; }
+
+#TarjetaBook {
+  margin: 100px;
+  border: 2px;
+  height: 1200px;
+  border-color: black;
+  border-style: dashed;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+  justify-content: space-between; }
+  #TarjetaBook #TarjetaBook h3 {
+    font-size: 20px;
+    padding: 20px; }
+  #TarjetaBook #TarjetaBook p {
+    width: 500px;
+    padding: 20px; }
+  #TarjetaBook .Book {
+    width: 100%;
+    height: 100%;
+    margin: 30px;
+    padding: 20px; }
+
+/* Media Queries Sobre Hermosx*/
+@media (max-width: 576px) {
+  #TarjetaBook {
+    display: none; }
+  .sobrehermosx__banner p {
+    width: 100%; } }
+
+@media (max-width: 768px) {
+  #TarjetaBook {
+    width: 100%; } }

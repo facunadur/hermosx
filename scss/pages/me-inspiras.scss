@@ -1,0 +1,55 @@
+.inspiracionmain__title{
+    margin: 50px;
+}
+
+#bannerMeInspiras{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .mainbanner__imagenInspo{
+        margin: 20px;
+        position: fixed;
+        flex-direction: column;
+        align-content: center;
+        align-items: center;
+    }
+    .inspo__titulo2{
+        text-align: center;
+    }
+    .inspo__parrafo1{
+        text-align: center;
+    }
+}
+
+
+.inspo__imagensize1{
+    height: 300px;
+    width: 200px;
+    padding: 20px;
+
+}
+.inspo__imagensize2{
+    margin: 30px;
+    height: 170px;
+    width: 250px;
+    padding: 20px;
+
+}
+.inspo__imagensize3{
+    height: 380px;
+    width: 250px;
+    padding: 20px;
+}
+.inspo__imagensize4{
+    height: 350px;
+    width: 200px;
+    padding: 20px;
+
+}
+
+#ParrafoInspo{
+    padding: 20px;
+    justify-content: center;
+    text-align: justify;
+}

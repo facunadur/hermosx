@@ -1,5 +1,15 @@
 
+@import "../scss/general/colores.scss";
 @import "../scss/general/tipografia.scss";
 
-@import "./Layout/header.scss";
-@import "./Layout/footer.scss"; 
+@import "./layout/body.scss";
+@import "./layout/footer.scss";
+@import "./layout/header.scss";
+
+@import "./pages/contacto-hermosx.scss";
+@import "./pages/index.scss";
+@import "./pages/me-inspiras.scss";
+@import "./pages/sobre-el-autor.scss";
+@import "./pages/sobre-hermosx.scss";
+
+

@@ -1,0 +1,10 @@
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    .header__logo {
+        width: 60px;
+        padding: 0px;
+    }
+}

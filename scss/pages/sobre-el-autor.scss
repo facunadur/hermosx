@@ -1,0 +1,49 @@
+.autorseccion1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .autorseccion1__imagen{
+        position: fixed;
+    }
+    .autorseccion1__titular{
+        width: 40%;
+    }
+    .autorseccion1__titulo{
+        margin: 200px 10px 10px 10px;
+        text-align: center;
+    }
+}
+
+
+.autorseccion2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    .autorseccion2__imagen{
+        justify-content: center;
+        margin: 50px;
+        height: 500px;
+    }
+}
+
+
+/* Media Queries Sobre El Autor*/
+
+@media (max-width: 850px) {
+
+    .autorseccion2__imagen{
+        display: none;
+     }
+
+     .autorseccion2{
+        padding: 40px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 70%;
+    }
+}
