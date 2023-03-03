@@ -1,7 +1,27 @@
+.color-black {
+  background-color: black; }
+
+.color-white {
+  background-color: white; }
+
+.color-grey {
+  background-color: grey; }
+
+* {
+  font-family: 'Nunito', sans-serif; }
+  * h1 {
+    font-size: 40px; }
+  * h2 {
+    font-size: 20px; }
+  * a {
+    text-decoration: none;
+    color: black; }
+
 * {
   margin: 0;
-  padding: 0;
-  font-family: 'Nunito', sans-serif; }
+  padding: 0; }
+  * h1 {
+    font-size: 40px; }
   * h2 {
     font-size: 40px; }
   * a {
@@ -39,7 +59,7 @@ header nav {
     align-items: center;
     justify-content: space-around; }
     .contacto .contacto__titulo .contacto__titulo h2 {
-      font-size: 50px; }
+      font-size: 20px; }
     .contacto .contacto__titulo .contacto__titulo p {
       font-size: 14px;
       margin: 0px; }

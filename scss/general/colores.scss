@@ -1,0 +1,9 @@
+$primario: black;
+$secundario: white;
+$terciario: grey;
+
+@each $color in $primario, $secundario, $terciario {
+    .color-#{$color} {
+        background-color: $color;
+    }
+}

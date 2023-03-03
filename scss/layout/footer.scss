@@ -1,7 +1,7 @@
 .footer{
     align-self: baseline;
-    background-color: black;
-    color: white;
+    background-color: $primario;
+    color: $secundario;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
